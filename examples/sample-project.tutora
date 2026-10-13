@@ -1,0 +1,74 @@
+{
+  "version": "1.4.0",
+  "appName": "Tutora AI",
+  "project": {
+    "id": "proj-sample-walkthrough-001",
+    "name": "Getting Started with Tutora AI",
+    "createdAt": 1728800000000,
+    "updatedAt": 1728801500000,
+    "canvas": {
+      "aspectRatio": "16:9",
+      "width": 1920,
+      "height": 1080,
+      "background": {
+        "type": "gradient",
+        "colors": ["#fce7f3", "#fed7aa"]
+      },
+      "padding": 48,
+      "borderRadius": 24,
+      "shadow": "lg"
+    },
+    "keynote": {
+      "enabled": true,
+      "preset": "standard",
+      "duration": 5.5,
+      "layout": "right",
+      "headline": "Create Polished Demos\nWith AI Voice Narration"
+    },
+    "timeline": {
+      "durationSeconds": 18.5,
+      "zoomKeyframes": [
+        {
+          "id": "zoom-1",
+          "start": 2.0,
+          "end": 7.5,
+          "scale": 1.5,
+          "targetX": 0.65,
+          "targetY": 0.42,
+          "easing": "tutora"
+        }
+      ],
+      "cursor": {
+        "scale": 2.5,
+        "style": "default",
+        "springPhysics": true,
+        "clickShockwave": true,
+        "bounce": 2.0
+      },
+      "webcam": {
+        "enabled": false,
+        "reactsToZoom": true,
+        "mirror": true,
+        "position": "bottom-right",
+        "sizePercent": 40
+      },
+      "voiceover": {
+        "engine": "kokoro-neural-offline",
+        "voice": "Antoni (EN)",
+        "language": "en",
+        "segments": [
+          {
+            "id": "seg-1",
+            "start": 0.0,
+            "text": "Welcome to this interactive walkthrough built with Tutora AI."
+          },
+          {
+            "id": "seg-2",
+            "start": 5.5,
+            "text": "Notice the smooth zoom animation and automatic cursor physics."
+          }
+        ]
+      }
+    }
+  }
+}
