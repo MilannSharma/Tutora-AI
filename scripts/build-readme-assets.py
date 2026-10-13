@@ -35,13 +35,16 @@ BLUE, PURPLE, CYAN, GREEN, RED, PINK = "#2563eb", "#7c3aed", "#06b6d4", "#10b981
 # --------------------------------------------------------------------------
 SLIDE_SECONDS = 5
 SLIDES = [
-    ("📊 Studio Dashboard", "Recordings, drafts & narration pipelines in one clean place", "dashboard.png"),
-    ("🎙️ AI Tutorial Studio", "Per-step narration powered by the offline Kokoro + Resona engine", "ai-tutorial-studio.png"),
-    ("🎬 Multi-Track Timeline & Keynotes", "Animated intro/outro · Fast 3s · Standard 5.5s · Cinematic 8s", "editor-keynote-intro.png"),
-    ("🎯 Cursor Polish & Spring Physics", "Smooth paths, click shockwaves, cursor scale up to 4.0×", "cursor-polish-physics.png"),
-    ("📹 Dynamic Webcam Bubble", "Zoom-reactive facecam that never covers essential UI", "webcam-bubble-overlay.png"),
-    ("💬 Automatic Captions", "Fade · Slide · Bounce · Pop animated subtitles", "auto-captions.png"),
-    ("⚡ Universal AI Model Hub", "Bring your own key with zero-failure provider failover", "ai-models-settings.png"),
+    ("📊 Studio Dashboard", "Recordings, drafts & narration pipelines in one clean workspace", "01-dashboard.png"),
+    ("🚀 Floating Capture Launcher", "Precision window, area select, mic audio and webcam toggles", "02-capture-launcher.png"),
+    ("⚡ Universal AI Model Hub", "Bring Your Own Key: Gemini, Groq, OpenRouter, OpenAI, Claude with failover", "03-ai-models-hub.png"),
+    ("🎬 Multi-Track Video Timeline", "Screen, mic voiceover, webcam bubble, and dynamic keynote intro/outro", "04-multitrack-editor.png"),
+    ("🎙️ AI Tutorial Studio", "Step-by-step narration powered by embedded Kokoro + Resona neural TTS", "05-ai-tutorial-studio.png"),
+    ("🎯 Cursor Polish & Spring Physics", "Smoothed paths, click shockwaves, bounce effects, and 4.0x size scale", "06-cursor-physics.png"),
+    ("🖼️ Camera & Canvas Styling", "16:9 / 9:16 / 1:1 aspect ratios, outer canvas padding and rounded corners", "07-camera-frame-styling.png"),
+    ("📹 Dynamic Webcam Bubble", "Zoom-reactive facecam bubble in circle or pill layout that never hides UI", "08-webcam-bubble.png"),
+    ("💬 Animated Captions & Subtitles", "Fade, Slide, Bounce, and Pop word-level subtitles with token styles", "09-auto-captions.png"),
+    ("⚙️ Production Export Studio", "Crisp 4K/1080p, 60fps rendering, hardware NVENC encoding, and MP4/WebM", "10-export-settings.png"),
 ]
 
 
@@ -50,7 +53,7 @@ SLIDES = [
 # --------------------------------------------------------------------------
 def svg(w, h, body, defs=""):
     return (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
         f'font-family="{FONT}" role="img">\n<defs>{defs}</defs>\n{body}\n</svg>\n'
     )
 
@@ -486,7 +489,7 @@ def slideshow():
         kk = f"0;{t0 / total:.4f};{t1 / total:.4f};1"
         g = [f'<g opacity="0">']
         if data:
-            g.append(f'<image x="{FX}" y="{FY}" width="{FW}" height="{FH}" preserveAspectRatio="xMidYMid slice" href="{data}">'
+            g.append(f'<image x="{FX}" y="{FY}" width="{FW}" height="{FH}" preserveAspectRatio="xMidYMid slice" xlink:href="{data}" href="{data}">'
                      + A("x", f"{FX};{FX};{FX - 28};{FX - 28}", total, kk) + A("y", f"{FY};{FY};{FY - 16};{FY - 16}", total, kk)
                      + A("width", f"{FW};{FW};{FW + 56};{FW + 56}", total, kk) + A("height", f"{FH};{FH};{FH + 32};{FH + 32}", total, kk) + "</image>")
         else:
