@@ -70,84 +70,100 @@ Download the latest official installer for your operating system:
 <sub>🎞️ Auto-plays every 5 seconds. Each slide shows its own title and caption.</sub>
 </div>
 
-### What you are looking at
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 📊 Studio Dashboard
-Manage recordings, drafts and narration pipelines. Group clips into folders and track status: *Draft Script* → *Script Ready* → *Audio Ready* → *Completed*.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🎬 Multi-Track Timeline & Keynotes
-Animated keynote intro/outro transitions. Duration presets: *Fast 3s*, *Standard 5.5s*, *Cinematic 8s*. Layouts: *Right*, *Left*, *Top*, *Bottom*, *Full Screen*.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 💬 Automatic Captions
-Accurate open captions and animated subtitles with *Fade*, *Slide*, *Bounce* and *Pop* animations plus custom typography tokens.
-
-</td>
-<td width="50%" valign="top">
-
-#### 📹 Dynamic Webcam Bubble
-Floating facecam with **zoom-reactive scaling**, so your face never covers essential UI. Choose a 1:1 circle, 16:9 pill or custom corner radius with drop shadows, plus mirroring.
-
-</td>
-</tr>
-</table>
-
-### 🎙️ AI Tutorial Studio & Offline Voice Engine
-
-Generate step-by-step narration scripts directly from your capture timeline. An embedded **Kokoro v1.0 & Resona neural voice engine** synthesizes lifelike voiceovers **100% offline**: no recurring cloud API cost, no network latency, complete privacy.
-
-<div align="center">
-<img src="assets/animations/voice-engine.svg" alt="Animated voice engine showing American English, British English, Hindi and Hinglish voices with a live equalizer" width="100%" />
-</div>
-
-* 🗣️ **57 high-fidelity voices:** American English, British English, Hindi and natural Hinglish
-* 🔁 **Per-step narration sync:** generate, edit, preview and apply voiceover segments straight to the timeline
-* 🚀 **Hardware acceleration:** automatic NVIDIA CUDA GPU acceleration with PyTorch CPU fallback
-
-### 🎯 Cursor Smoothing & Spring Physics
-
-Raw mouse movement looks jittery. Tutora AI applies real-time spring physics to your cursor path and renders click shockwaves and bounce animations.
-
-<div align="center">
-<img src="assets/animations/cursor-physics.svg" alt="Side by side: jittery raw cursor path versus smooth spring-physics path with click shockwave" width="100%" />
-</div>
-
-* 🔎 **Custom cursor sizing:** scale up to 4.0× for crystal-clear visibility on 4K displays
-* 💥 **Click animations:** ripple, shockwave, bounce and pulse cues
-* 🎨 **Theme support:** Windows 11, macOS and custom cursor packs
-
-### ⚡ Universal AI Model Hub & Zero-Failure Failover
-
-Bring your own API key (BYOK) and configure **Google Gemini** (including the 1M tokens/min free tier), **Groq Cloud**, **OpenRouter**, **OpenAI** and **Anthropic Claude**. If a provider hits a rate limit (HTTP 429) or quota, Tutora AI **switches to your next configured provider in real time**, without interrupting script generation.
-
-<div align="center">
-<img src="assets/animations/failover.svg" alt="Animated failover: Gemini returns 429, Groq hits quota, OpenRouter succeeds and generation continues" width="100%" />
-</div>
-
-<details>
-<summary><b>🖼️ Static screenshot gallery (full-size, no animation)</b></summary>
 <br/>
 
-<img src="assets/screenshots/dashboard.png" alt="Tutora AI Studio Dashboard" width="100%" />
-<img src="assets/screenshots/ai-tutorial-studio.png" alt="Tutora AI Tutorial Studio and Narration" width="100%" />
-<img src="assets/screenshots/editor-keynote-intro.png" alt="Tutora AI Video Editor and Keynote Transitions" width="100%" />
-<img src="assets/screenshots/cursor-polish-physics.png" alt="Tutora AI Cursor Physics and Effects" width="100%" />
-<img src="assets/screenshots/webcam-bubble-overlay.png" alt="Tutora AI Dynamic Webcam Overlay" width="100%" />
-<img src="assets/screenshots/auto-captions.png" alt="Tutora AI Captions and Subtitles" width="100%" />
-<img src="assets/screenshots/ai-models-settings.png" alt="Tutora AI Universal AI Model Hub" width="100%" />
+### 1. 📊 Studio Dashboard
+Manage recordings, drafts, and narration pipelines from one organized hub. Group clips into dedicated project spaces and folders, and monitor real-time pipeline badges (*Draft Script* → *Script Ready* → *Audio Ready* → *Completed*).
 
-</details>
+<p align="center">
+  <img src="assets/screenshots/dashboard.png" alt="Tutora AI Studio Dashboard" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+---
+
+### 2. 🎙️ AI Tutorial Studio & Offline Voice Engine
+Generate step-by-step narration scripts directly from your capture timeline. An embedded **Kokoro v1.0 & Resona neural voice engine** synthesizes lifelike voiceovers **100% offline**: no recurring cloud API cost, no network latency, and complete privacy.
+
+* 🗣️ **57 high-fidelity voices:** American English, British English, Hindi, and natural Hinglish
+* 🔁 **Per-step narration sync:** generate, edit, preview, and apply voiceover segments straight to the timeline
+* 🚀 **Hardware acceleration:** automatic NVIDIA CUDA GPU acceleration with PyTorch CPU fallback
+
+<p align="center">
+  <img src="assets/screenshots/ai-tutorial-studio.png" alt="Tutora AI Tutorial Studio and Narration" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+<div align="center">
+  <img src="assets/animations/voice-engine.svg" alt="Animated voice engine showing American English, British English, Hindi and Hinglish voices with a live equalizer" width="100%" />
+</div>
+
+---
+
+### 3. 🎬 Multi-Track Timeline & Keynote Transitions
+Elevate raw recordings into polished video walkthroughs with animated keynote intro/outro transitions. Customize duration presets (*Fast 3s*, *Standard 5.5s*, *Cinematic 8s*) and window layouts (*Right*, *Left*, *Top*, *Bottom*, *Full Screen*).
+
+<p align="center">
+  <img src="assets/screenshots/editor-keynote-intro.png" alt="Tutora AI Video Editor and Keynote Transitions" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+---
+
+### 4. 🎯 Cursor Smoothing & Spring Physics
+Raw mouse movements look jittery on screen. Tutora AI applies real-time spring physics to your cursor paths, eliminates sudden shakes, and renders click shockwaves and bounce animations.
+
+* 🔎 **Custom cursor sizing:** scale up to 4.0× for crystal-clear visibility on 4K displays
+* 💥 **Click cues:** ripple, shockwave, bounce, and pulse cues
+* 🎨 **Theme support:** Windows 11, macOS, and custom minimal cursor styles
+
+<p align="center">
+  <img src="assets/screenshots/cursor-polish-physics.png" alt="Tutora AI Cursor Physics and Effects" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+<div align="center">
+  <img src="assets/animations/cursor-physics.svg" alt="Side by side: jittery raw cursor path versus smooth spring-physics path with click shockwave" width="100%" />
+</div>
+
+---
+
+### 5. 📹 Dynamic Webcam Bubble Overlays
+Keep your audience engaged with an interactive facecam overlay that dynamically reacts to what's happening on your screen.
+
+* 🎯 **Zoom-reactive scaling:** automatically scales down during zoom cuts so presenter reactions stay visible without blocking essential UI elements
+* 🪞 **Mirroring & Aspect Ratio:** 1:1 circular bubble, 16:9 pill, custom corner radius, and drop shadows
+
+<p align="center">
+  <img src="assets/screenshots/webcam-bubble-overlay.png" alt="Tutora AI Dynamic Webcam Overlay" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+---
+
+### 6. 💬 Automatic Captions & Subtitles
+Generate accurate open captions and animated subtitles with customizable animations (*Fade*, *Slide*, *Bounce*, *Pop*) and custom typography tokens.
+
+<p align="center">
+  <img src="assets/screenshots/auto-captions.png" alt="Tutora AI Captions and Subtitles" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+---
+
+### 7. ⚡ Universal AI Model Hub & Zero-Failure Failover
+Bring your own API key (BYOK) and configure **Google Gemini** (including 1M tokens/min free tier), **Groq Cloud**, **OpenRouter**, **OpenAI**, and **Anthropic Claude**. If a provider hits a rate limit (HTTP 429) or quota exhaustion, Tutora AI **switches to your next configured provider in real time** without interrupting script generation.
+
+<p align="center">
+  <img src="assets/screenshots/ai-models-settings.png" alt="Tutora AI Universal AI Model Hub" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
+
+<div align="center">
+  <img src="assets/animations/failover.svg" alt="Animated failover: Gemini returns 429, Groq hits quota, OpenRouter succeeds and generation continues" width="100%" />
+</div>
+
+---
+
+### 8. ⚙️ In-Editor Settings & Appearance
+Easily toggle between Light, Dark, and System themes, manage language preferences, and fine-tune export quality settings directly from the editor panel.
+
+<p align="center">
+  <img src="assets/screenshots/editor-settings.png" alt="Tutora AI Editor Settings & Theme Controls" width="100%" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);" />
+</p>
 
 <img src="assets/animations/divider.svg" alt="" width="100%" />
 
