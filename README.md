@@ -1,121 +1,167 @@
-# Tutora AI 🎙️✨
+<div align="center">
 
-<p align="center">
-  <img src="assets/branding/tutora-logo.png" alt="Tutora AI Logo" width="140" style="border-radius: 28px;" />
-</p>
+<img src="assets/animations/hero-banner.svg" alt="Tutora AI - Create polished screen demos, AI-narrated walkthroughs and video tutorials in minutes" width="100%" />
 
-<h2 align="center">Create Polished Screen Demos, AI-Narrated Walkthroughs & Video Tutorials in Minutes</h2>
+<br/>
 
-<p align="center">
-  <a href="#-download--releases"><img src="https://img.shields.io/badge/Release-v1.4.0--stable-2563eb?style=for-the-badge&logo=github" alt="Release v1.4.0" /></a>
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111827?style=for-the-badge&logo=windows" alt="Platform Support" />
-  <img src="https://img.shields.io/badge/TTS%20Engine-100%25%20Offline%20Neural-059669?style=for-the-badge&logo=openai" alt="Offline Neural TTS" />
-  <img src="https://img.shields.io/badge/License-AGPL--3.0-7c3aed?style=for-the-badge" alt="License AGPL 3.0" />
-</p>
+<a href="#-download--releases"><img src="https://img.shields.io/badge/Release-v1.4.0--stable-2563eb?style=for-the-badge&logo=github" alt="Release v1.4.0" /></a>
+<img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-111827?style=for-the-badge&logo=windows" alt="Platform Support" />
+<img src="https://img.shields.io/badge/TTS%20Engine-100%25%20Offline%20Neural-059669?style=for-the-badge&logo=openai" alt="Offline Neural TTS" />
+<img src="https://img.shields.io/badge/License-AGPL--3.0-7c3aed?style=for-the-badge" alt="License AGPL 3.0" />
 
----
+<br/><br/>
 
-## 💡 What is Tutora AI?
+<b>Record → Script → Voice → Export. One app. Zero cloud bills.</b>
 
-**Tutora AI** is an all-in-one desktop studio designed for developers, creators, educators, and product teams. It combines high-performance platform capture, motion-driven timeline editing, automated cursor smoothing, dynamic auto-zooms, and an **embedded 100% offline Neural Voice Studio**.
+<br/><br/>
 
-Instead of spending hours manually recording voiceovers, editing clips in complex timeline software, or hiring motion designers for smooth zoom cuts, **Tutora AI handles the entire recording, AI script generation, voice synthesis, and video production workflow in one unified application**.
+<img src="assets/animations/pipeline.svg" alt="Tutora AI pipeline: Record, AI Script, Offline Voice, Export" width="100%" />
 
----
+</div>
 
-## 📥 Download & Releases
+<img src="assets/animations/divider.svg" alt="" width="100%" />
+
+<a id="-what-is-tutora-ai"></a>
+<img src="assets/animations/h-what.svg" alt="What is Tutora AI?" width="100%" />
+
+**Tutora AI** is an all-in-one desktop studio for developers, creators, educators and product teams. It combines high-performance screen capture, motion-driven timeline editing, automated cursor smoothing, dynamic auto-zooms and an **embedded, 100% offline Neural Voice Studio**.
+
+Instead of recording voiceovers by hand, cutting clips in heavy timeline software or hiring a motion designer for smooth zooms, **Tutora AI handles recording, AI script generation, voice synthesis and video production inside one application**.
+
+| 😩 The old way | ✨ With Tutora AI |
+| :--- | :--- |
+| Record voiceover, redo it after every typo | AI writes the script, offline voices narrate it |
+| Keyframe every zoom by hand | Dynamic auto-zoom follows your actions |
+| Jittery cursor, invisible clicks | Spring-smoothed cursor with click shockwaves |
+| Pay per minute for cloud TTS | Embedded Kokoro + Resona engine, no recurring cost |
+| Locked into one AI vendor | Bring your own key, automatic multi-provider failover |
+
+<img src="assets/animations/divider.svg" alt="" width="100%" />
+
+<img src="assets/animations/h-features.svg" alt="Everything Inside" width="100%" />
+
+<div align="center">
+<img src="assets/animations/feature-cards.svg" alt="Tutora AI feature cards: offline voice, AI scripts, auto zoom, cursor physics, webcam bubble, captions, keynotes, AI hub, open project format" width="100%" />
+</div>
+
+<img src="assets/animations/divider.svg" alt="" width="100%" />
+
+<a id="-download--releases"></a>
+<img src="assets/animations/h-download.svg" alt="Download and Releases" width="100%" />
 
 Download the latest official installer for your operating system:
 
 | Platform | Recommended Installer | Format | Architecture |
 | :--- | :--- | :--- | :--- |
-| **Windows** | [Download Tutora-AI-Setup-1.4.0.exe](https://github.com/MilannSharma/Tutora-AI/releases/latest) | `.exe` (Installer / Portable) | x64 / ARM64 |
-| **macOS** | [Download Tutora-AI-1.4.0.dmg](https://github.com/MilannSharma/Tutora-AI/releases/latest) | `.dmg` | Apple Silicon (M1/M2/M3/M4) & Intel |
-| **Linux** | [Download Tutora-AI-1.4.0.AppImage](https://github.com/MilannSharma/Tutora-AI/releases/latest) | `.AppImage` / `.deb` | x64 |
+| 🪟 **Windows** | [Download Tutora-AI-Setup-1.4.0.exe](https://github.com/MilannSharma/Tutora-AI/releases/latest) | `.exe` (Installer / Portable) | x64 / ARM64 |
+| 🍎 **macOS** | [Download Tutora-AI-1.4.0.dmg](https://github.com/MilannSharma/Tutora-AI/releases/latest) | `.dmg` | Apple Silicon (M1/M2/M3/M4) & Intel |
+| 🐧 **Linux** | [Download Tutora-AI-1.4.0.AppImage](https://github.com/MilannSharma/Tutora-AI/releases/latest) | `.AppImage` / `.deb` | x64 |
 
-> 💡 **Tip**: All binary releases are cryptographically signed with SHA-256 checksums available in the [GitHub Releases](https://github.com/MilannSharma/Tutora-AI/releases) tab.
+> 💡 **Tip:** All binary releases are cryptographically signed. SHA-256 checksums are listed in the [GitHub Releases](https://github.com/MilannSharma/Tutora-AI/releases) tab.
 
----
+<img src="assets/animations/divider.svg" alt="" width="100%" />
 
-## 🌟 Visual Feature Tour
+<a id="-visual-feature-tour"></a>
+<img src="assets/animations/h-tour.svg" alt="Visual Feature Tour" width="100%" />
 
-### 1. Studio Dashboard
-Manage all your screen recordings, drafts, and narration pipelines from a clean, intuitive studio dashboard. Group recordings into dedicated folders and track project statuses (*Draft Script*, *Script Ready*, *Audio Ready*, *Completed*).
+<div align="center">
+<img src="assets/animations/slideshow.svg" alt="Auto-playing slideshow: Studio Dashboard, AI Tutorial Studio, Timeline and Keynotes, Cursor Physics, Webcam Bubble, Captions, AI Model Hub" width="100%" />
+<br/>
+<sub>🎞️ Auto-plays every 5 seconds. Each slide shows its own title and caption.</sub>
+</div>
 
-<p align="center">
-  <img src="assets/screenshots/dashboard.png" alt="Tutora AI Studio Dashboard" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+### What you are looking at
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 2. 🎙️ AI Tutorial Studio & Offline Voice Engine
-Generate step-by-step narration scripts directly from your capture timeline. Powered by an embedded **Kokoro v1.0 & Resona neural voice engine**, Tutora AI synthesizes lifelike voiceovers **100% offline** without any recurring cloud API costs, zero latency, and complete privacy.
+#### 📊 Studio Dashboard
+Manage recordings, drafts and narration pipelines. Group clips into folders and track status: *Draft Script* → *Script Ready* → *Audio Ready* → *Completed*.
 
-* **57 High-Fidelity Voices**: American English, British English, Hindi, and natural Hinglish voices.
-* **Per-Step Narration Sync**: Generate, edit, preview, and apply voiceover segments directly to the timeline.
-* **Hardware Acceleration**: Automatic NVIDIA CUDA GPU acceleration with PyTorch CPU fallback.
+</td>
+<td width="50%" valign="top">
 
-<p align="center">
-  <img src="assets/screenshots/ai-tutorial-studio.png" alt="Tutora AI Tutorial Studio & Narration" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+#### 🎬 Multi-Track Timeline & Keynotes
+Animated keynote intro/outro transitions. Duration presets: *Fast 3s*, *Standard 5.5s*, *Cinematic 8s*. Layouts: *Right*, *Left*, *Top*, *Bottom*, *Full Screen*.
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### 3. 🎬 Multi-Track Timeline & Animated Keynotes
-Bring your walkthroughs to life with animated keynote intro/outro transitions. Customize duration presets (*Fast 3s*, *Standard 5.5s*, *Cinematic 8s*) and window layouts (*Right*, *Left*, *Top*, *Bottom*, *Full Screen*).
+#### 💬 Automatic Captions
+Accurate open captions and animated subtitles with *Fade*, *Slide*, *Bounce* and *Pop* animations plus custom typography tokens.
 
-<p align="center">
-  <img src="assets/screenshots/editor-keynote-intro.png" alt="Tutora AI Video Editor and Keynote Transitions" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+</td>
+<td width="50%" valign="top">
 
----
+#### 📹 Dynamic Webcam Bubble
+Floating facecam with **zoom-reactive scaling**, so your face never covers essential UI. Choose a 1:1 circle, 16:9 pill or custom corner radius with drop shadows, plus mirroring.
 
-### 4. 🎯 Cursor Smoothing & Spring Physics
-Raw mouse movements look jittery. Tutora AI applies real-time spring physics to smooth your cursor paths, render customizable click shockwaves, and bounce click animations.
+</td>
+</tr>
+</table>
 
-* **Custom Cursor Sizing**: Adjust scale up to 4.0× for crystal-clear visibility on 4K displays.
-* **Click Animations**: Choose between ripple, shockwave, bounce, and pulse visual cues.
-* **Theme Support**: Windows 11, macOS, and custom custom styled cursor packs.
+### 🎙️ AI Tutorial Studio & Offline Voice Engine
 
-<p align="center">
-  <img src="assets/screenshots/cursor-polish-physics.png" alt="Tutora AI Cursor Physics and Effects" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+Generate step-by-step narration scripts directly from your capture timeline. An embedded **Kokoro v1.0 & Resona neural voice engine** synthesizes lifelike voiceovers **100% offline**: no recurring cloud API cost, no network latency, complete privacy.
 
----
+<div align="center">
+<img src="assets/animations/voice-engine.svg" alt="Animated voice engine showing American English, British English, Hindi and Hinglish voices with a live equalizer" width="100%" />
+</div>
 
-### 5. 📹 Dynamic Webcam Bubble Overlays
-Keep your audience connected by overlaying your facecam in a floating bubble.
+* 🗣️ **57 high-fidelity voices:** American English, British English, Hindi and natural Hinglish
+* 🔁 **Per-step narration sync:** generate, edit, preview and apply voiceover segments straight to the timeline
+* 🚀 **Hardware acceleration:** automatic NVIDIA CUDA GPU acceleration with PyTorch CPU fallback
 
-* **Zoom-Reactive Scaling**: Webcam automatically adapts size during dynamic zoom cuts so your face never covers essential UI elements.
-* **Mirroring & Aspect Ratio**: 1:1 circular bubble, 16:9 pill, and custom corner radii with drop shadows.
+### 🎯 Cursor Smoothing & Spring Physics
 
-<p align="center">
-  <img src="assets/screenshots/webcam-bubble-overlay.png" alt="Tutora AI Dynamic Webcam Overlay" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+Raw mouse movement looks jittery. Tutora AI applies real-time spring physics to your cursor path and renders click shockwaves and bounce animations.
 
----
+<div align="center">
+<img src="assets/animations/cursor-physics.svg" alt="Side by side: jittery raw cursor path versus smooth spring-physics path with click shockwave" width="100%" />
+</div>
 
-### 6. 💬 Automatic Captions & Subtitles
-Generate accurate open captions and animated subtitles with customizable animations (Fade, Slide, Bounce, Pop) and custom typography tokens.
+* 🔎 **Custom cursor sizing:** scale up to 4.0× for crystal-clear visibility on 4K displays
+* 💥 **Click animations:** ripple, shockwave, bounce and pulse cues
+* 🎨 **Theme support:** Windows 11, macOS and custom cursor packs
 
-<p align="center">
-  <img src="assets/screenshots/auto-captions.png" alt="Tutora AI Captions and Subtitles" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+### ⚡ Universal AI Model Hub & Zero-Failure Failover
 
----
+Bring your own API key (BYOK) and configure **Google Gemini** (including the 1M tokens/min free tier), **Groq Cloud**, **OpenRouter**, **OpenAI** and **Anthropic Claude**. If a provider hits a rate limit (HTTP 429) or quota, Tutora AI **switches to your next configured provider in real time**, without interrupting script generation.
 
-### 7. ⚡ Universal AI Model Hub & Zero-Failure Failover
-Bring your own API key (BYOK) with multi-provider failover protection. Configure Google Gemini (including 1M tokens/min free tier), Groq Cloud, OpenRouter, OpenAI, and Anthropic Claude.
+<div align="center">
+<img src="assets/animations/failover.svg" alt="Animated failover: Gemini returns 429, Groq hits quota, OpenRouter succeeds and generation continues" width="100%" />
+</div>
 
-* If one provider encounters a rate limit (HTTP 429) or quota limit, Tutora AI **automatically switches to your next configured provider in real-time** without interrupting script generation.
+<details>
+<summary><b>🖼️ Static screenshot gallery (full-size, no animation)</b></summary>
+<br/>
 
-<p align="center">
-  <img src="assets/screenshots/ai-models-settings.png" alt="Tutora AI Universal AI Model Hub" width="95%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.12);" />
-</p>
+<img src="assets/screenshots/dashboard.png" alt="Tutora AI Studio Dashboard" width="100%" />
+<img src="assets/screenshots/ai-tutorial-studio.png" alt="Tutora AI Tutorial Studio and Narration" width="100%" />
+<img src="assets/screenshots/editor-keynote-intro.png" alt="Tutora AI Video Editor and Keynote Transitions" width="100%" />
+<img src="assets/screenshots/cursor-polish-physics.png" alt="Tutora AI Cursor Physics and Effects" width="100%" />
+<img src="assets/screenshots/webcam-bubble-overlay.png" alt="Tutora AI Dynamic Webcam Overlay" width="100%" />
+<img src="assets/screenshots/auto-captions.png" alt="Tutora AI Captions and Subtitles" width="100%" />
+<img src="assets/screenshots/ai-models-settings.png" alt="Tutora AI Universal AI Model Hub" width="100%" />
 
----
+</details>
 
-## 💻 System Requirements
+<img src="assets/animations/divider.svg" alt="" width="100%" />
+
+<img src="assets/animations/h-quickstart.svg" alt="Quick Start" width="100%" />
+
+1. **📥 Install** the build for your OS from the [Releases](https://github.com/MilannSharma/Tutora-AI/releases/latest) page.
+2. **🔑 Add an AI key** (optional but recommended) in *Settings → AI Models*. Add more than one provider to enable automatic failover.
+3. **🎥 Record** your screen, with or without webcam, and let cursor smoothing and auto-zoom do the polish.
+4. **🎙️ Open AI Tutorial Studio**, generate the script, pick one of the 57 offline voices and apply the narration to the timeline.
+5. **🚀 Add a keynote intro/outro, captions** and export your finished tutorial.
+
+<img src="assets/animations/divider.svg" alt="" width="100%" />
+
+<img src="assets/animations/h-specs.svg" alt="System Requirements" width="100%" />
 
 | Specification | Minimum | Recommended |
 | :--- | :--- | :--- |
@@ -125,25 +171,40 @@ Bring your own API key (BYOK) with multi-provider failover protection. Configure
 | **GPU** | Integrated Graphics (DirectX 12 / Metal) | Dedicated NVIDIA GPU (CUDA 12+) for instant AI synthesis |
 | **Disk Space** | 2 GB available storage | SSD storage recommended |
 
----
+<img src="assets/animations/divider.svg" alt="" width="100%" />
 
-## 📁 Project Format & Compatibility
+<img src="assets/animations/h-format.svg" alt="Project Format" width="100%" />
 
-Tutora AI uses the native `.tutora` project format. Existing files from previous versions are 100% backward compatible:
-* **Supported formats**: `.tutora`, `.recordly`, `.guidely`
-* **Portability**: All timeline edits, zoom points, voice clips, and keynote settings are serialized in standard JSON packages.
+Tutora AI uses the native `.tutora` project format. Files from previous versions are 100% backward compatible.
 
----
+* 📦 **Supported formats:** `.tutora`, `.recordly`, `.guidely`
+* 🔁 **Portability:** timeline edits, zoom points, voice clips and keynote settings are serialized in standard JSON packages
 
-## 🤝 Community & Support
+<img src="assets/animations/divider.svg" alt="" width="100%" />
 
-* **Report Bugs**: [GitHub Issue Tracker](https://github.com/MilannSharma/Tutora-AI/issues)
-* **Request Features**: Open a feature proposal in [Discussions](https://github.com/MilannSharma/Tutora-AI/discussions)
-* **Star the Repo**: If you love Tutora AI, please give us a ⭐️ to support open-source development!
+<img src="assets/animations/h-community.svg" alt="Community and Support" width="100%" />
 
----
+* 🐛 **Report bugs:** [GitHub Issue Tracker](https://github.com/MilannSharma/Tutora-AI/issues)
+* 💡 **Request features:** open a proposal in [Discussions](https://github.com/MilannSharma/Tutora-AI/discussions)
+* ⭐ **Star the repo:** if Tutora AI saves you time, a star supports open-source development!
 
-## 📜 License
+<details>
+<summary><b>🛠️ Maintainers: how the animated README works</b></summary>
+<br/>
 
-Tutora AI is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
-See the [LICENSE](LICENSE) file for more details.
+GitHub strips JavaScript and CSS from READMEs, so every animation here is a self-contained **SVG with SMIL animation** loaded through `<img>`. All files in `assets/animations/` are generated by one script:
+
+```bash
+pip install pillow                       # optional, shrinks screenshots inside the slideshow
+python scripts/build-readme-assets.py    # run from the repo root
+```
+
+To change a slideshow title, caption or screenshot, edit the `SLIDES` list at the top of `scripts/build-readme-assets.py` and re-run it. Commit the regenerated SVGs.
+
+</details>
+
+<img src="assets/animations/divider.svg" alt="" width="100%" />
+
+<img src="assets/animations/h-license.svg" alt="License" width="100%" />
+
+Tutora AI is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See the [LICENSE](LICENSE) file for details.
